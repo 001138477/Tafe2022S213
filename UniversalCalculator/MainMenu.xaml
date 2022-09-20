@@ -22,7 +22,7 @@
 		</StackPanel>
 
 		<StackPanel>
-			<Image x:Name="abacusImage" Width="150" Height="150" Source="Downloads/Sememester 2/6 - ICTICT449 - Use version control systems in development environments/Tafe2022S213/Images/Abacus.PNG" HorizontalAlignment="Right" />
+			<Image x:Name="abacusImage" Width="150" Height="150" Source="Images/Abacus.PNG" HorizontalAlignment="Right" />
 		</StackPanel>
 
 	</Grid>
