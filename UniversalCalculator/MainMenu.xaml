@@ -13,12 +13,12 @@
 
 		<StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Stretch" Margin="50" >
 			<TextBlock Text="Universal Calculator" FontSize="48" FontWeight="Bold"/>
-			<HyperlinkButton x:Name="mathsCalculatorButton" Content="Maths Calculator" HorizontalAlignment="Center"/>
-			<HyperlinkButton x:Name="mortgageCalculatorButton" Content="Mortgage Calculator" HorizontalAlignment="Center"/>
-			<HyperlinkButton x:Name="currencyCalculatorButton" Content="Currency Calculator" HorizontalAlignment="Center"/>
-			<HyperlinkButton x:Name="tripCalculatorButton" Content="Trip Calculator" HorizontalAlignment="Center"/>
+			<HyperlinkButton x:Name="mathsCalculatorButton" Content="Maths Calculator" HorizontalAlignment="Center" Click="mathsCalculatorButton_Click"/>
+			<HyperlinkButton x:Name="mortgageCalculatorButton" Content="Mortgage Calculator" HorizontalAlignment="Center" Click="mortgageCalculatorButton_Click"/>
+			<HyperlinkButton x:Name="currencyCalculatorButton" Content="Currency Calculator" HorizontalAlignment="Center" Click="currencyCalculatorButton_Click"/>
+			<HyperlinkButton x:Name="tripCalculatorButton" Content="Trip Calculator" HorizontalAlignment="Center" Click="tripCalculatorButton_Click"/>
 
-			<Button x:Name="exitButton" Content="Exit" HorizontalAlignment="Center" FontSize="32" Margin="50" />
+			<Button x:Name="exitButton" Content="Exit" HorizontalAlignment="Center" FontSize="32" Margin="50" Click="exitButton_Click" />
 		</StackPanel>
 
 		<StackPanel>

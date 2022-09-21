@@ -42,5 +42,10 @@ namespace Calculator
 			pay=(principleBorrow*Math.Pow((rate/12)+1,(duration))*rate/12)/(Math.Pow(rate/12+1,(duration))-1);
 			monthlyRepaymentTextBox.Text = pay.ToString();
 		}
+
+		private void Button_Click(object sender, RoutedEventArgs e)
+		{
+			this.Frame.Navigate(typeof(MainMenu));
+		}
 	}
 }
